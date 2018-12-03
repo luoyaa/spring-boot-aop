@@ -1,6 +1,6 @@
-package com.temi.repo;
+package com.test.repo;
 
-import com.temi.entity.OperationLog;
+import com.test.entity.ExceptionLog;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
  * @create 2018-07-25 13:28
  **/
 @Repository
-public interface OperationLogRepo extends CrudRepository<OperationLog, Long> {
+public interface ExceptionLogRepo extends CrudRepository<ExceptionLog, Long> {
 }

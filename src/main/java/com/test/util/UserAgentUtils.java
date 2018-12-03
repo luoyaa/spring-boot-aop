@@ -1,4 +1,4 @@
-package com.temi.util;
+package com.test.util;
 
 import eu.bitwalker.useragentutils.Browser;
 import eu.bitwalker.useragentutils.DeviceType;

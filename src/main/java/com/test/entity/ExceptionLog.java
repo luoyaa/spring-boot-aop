@@ -1,4 +1,4 @@
-package com.temi.entity;
+package com.test.entity;
 
 import lombok.Data;
 

@@ -1,9 +1,8 @@
-package com.temi.controller;
+package com.test.controller;
 
-import com.temi.logs.ControllerLogs;
-import com.temi.logs.ServiceLogs;
+import com.test.logs.ControllerLogs;
+import com.test.logs.ServiceLogs;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

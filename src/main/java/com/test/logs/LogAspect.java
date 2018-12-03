@@ -1,13 +1,13 @@
-package com.temi.logs;
+package com.test.logs;
 
 
 import com.alibaba.fastjson.JSON;
-import com.temi.entity.OperationLog;
-import com.temi.repo.ExceptionLogRepo;
-import com.temi.repo.OperationLogRepo;
-import com.temi.util.IpUtils;
-import com.temi.util.StringUtils;
-import com.temi.util.UserAgentUtils;
+import com.test.entity.OperationLog;
+import com.test.repo.ExceptionLogRepo;
+import com.test.repo.OperationLogRepo;
+import com.test.util.IpUtils;
+import com.test.util.StringUtils;
+import com.test.util.UserAgentUtils;
 import eu.bitwalker.useragentutils.UserAgent;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -47,14 +47,14 @@ public class LogAspect {
     /**
      * Service层切点
      */
-    @Pointcut("@annotation(com.temi.logs.ServiceLogs)")
+    @Pointcut("@annotation(com.test.logs.ServiceLogs)")
     public void serviceAspect() {
     }
 
     /**
      * Controller层切点
      */
-    @Pointcut("@annotation(com.temi.logs.ControllerLogs)")
+    @Pointcut("@annotation(com.test.logs.ControllerLogs)")
     public void controllerAspect() {}
 
     /**
